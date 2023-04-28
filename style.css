@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.glass-box {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.box {
+  margin: 50px 105px;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+}
+
+ul li {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.white {
+  color: #F8F8FF;
+}
+
+.dark {
+  color: #becbd6;
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    margin: 25px 15px;
+  }
+}
